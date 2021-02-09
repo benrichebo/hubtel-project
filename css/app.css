@@ -1,0 +1,79 @@
+.form-control {
+    background: #fafafa;
+    border: 1px solid #efefef;
+    border-radius: 0;
+    font-size: 0.9rem;
+    height: 40px;
+    padding: 1.4rem;
+}
+.btn-custom{
+    color: #fff;    
+    background: #01c7b1;
+    font-size: 0.85rem;
+    min-height: 39px;
+    padding: 0.65rem 2.0rem;
+}
+.btn-custom:hover {
+    color: #fff;    
+    background: #009D95;
+}
+.btn-custom-outline {
+    color: #01c7b1;    
+    background: transparent;
+    border: 1.7px solid #01c7b1;
+    font-size: 0.85rem;
+    min-height: 39px;
+    padding: 0.60rem 1.50rem;
+}
+.btn-custom-outline:hover {
+    color: #fff;    
+    background: #009D95;
+}
+.navbar.bg-light{
+        background-color: #fff!important;
+        border-bottom: 1px solid rgba(240, 240, 240, 1);
+}
+.categoryBusiness .card:hover, .categoryBusiness .card:active, .card:visited {
+    text-decoration: none;  
+    border: 1.3px solid #01c7b1;
+}
+.categoryBusiness .card {
+    text-decoration: none;   
+    color:inherit;
+}
+
+.category {
+    color: #fff;    
+    background: #009D95;
+}
+
+.modal-header{
+    border-bottom: 0px;
+}
+
+.carousel-caption{
+    color: black;
+    position: unset;
+    margin: 50px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 157, 149, 0.3);
+    border-radius: 50%;
+    border: 1px solid #009D95;
+}
+
+.carousel-control-next .c-icon, .carousel-control-prev .c-icon {
+    width: 30px;
+    font-weight: bold;
+    color: rgb(1, 129, 123);
+    background-color: rgba(0, 157, 149, 0.6);
+    padding: 12px 20px;
+    border-radius: 50%;
+    opacity: .5;
+}
+
+
+

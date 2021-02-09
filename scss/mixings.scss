@@ -1,0 +1,27 @@
+@mixin hideRadioButton(){
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+@mixin showStyleIndicator(){
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+@mixin hoverBtn(){
+    color: $white;    
+    background: $hub_color_deep;
+    border-color: $hub_color_deep;
+}
+
+@mixin btnCustomProp(){
+    font-size: 0.85rem;
+    min-height: 39px;
+}

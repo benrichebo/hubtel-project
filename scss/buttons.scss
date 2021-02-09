@@ -1,0 +1,23 @@
+
+  .btn-custom {
+    color: $white;    
+    background: $hub_background_color;
+    @include btnCustomProp();
+    padding: 0.65rem 2.2rem;
+    &:visited,&:active{
+        border-color: $hub_color_deep;
+    }
+    &:hover {
+        @include hoverBtn();
+      }     
+  }
+  .btn-custom-outline {
+    color: $hub_background_color;    
+    background: transparent;
+    border: 1.7px solid $hub_background_color;
+    padding: 0.60rem 1.50rem;
+    @include btnCustomProp();
+    &:hover {
+        @include hoverBtn();
+  }
+}

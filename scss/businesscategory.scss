@@ -1,0 +1,13 @@
+.categoryBusiness .card {
+    &:hover,&:active,&:visited{
+        text-decoration: $text_deco;  
+        border: 1px solid $hub_background_color;
+    }
+}
+  
+.category {
+    color: $white;    
+    background: $hub_color_deep;
+    
+}
+  

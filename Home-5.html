@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hubtel</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Main header-->
+    <header>
+        <!-- As a link -->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a href="" class="navbar-brand">
+            <img src="images/hubtel.png" class="d-none d-sm-none d-md-block" width="100px" alt="hubtel_logo">
+            <img src="images/hub.png" class="d-block d-sm-block d-md-none" height="30px" alt="hubtel_logo">
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!--Main layout-->
+    <main class="pt-5 mx-lg-5">
+        <div class="container">
+                <!--start of row-->
+                <div class="row">
+                    <!--Carousel section-->
+                        <div class="col-md-12 m-auto">
+                            <h5 class="text-center mb-5">See what you are getiing</h5>
+                            <div class="bd-example mt-5">
+                                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                  </ol>
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <div class="mb-2 d-block h-100">
+                                        <img src="images/phones.png" class="d-block m-auto" width="250px" alt="...">
+                                      </div>
+                                      <div class="carousel-caption d-md-block mt-3">
+                                        <h4>Receipts</h4>
+                                        <h6 class="text-muted mt-4">A sample of the receipts your customers will receive after purchase.</h6>
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="mb-2 d-block h-100">
+                                        <img src="images/phones.png" class="d-block m-auto" width="250px" alt="...">
+                                      </div>
+                                      <div class="carousel-caption d-md-block mt-3">
+                                        <h5>Second slide label</h5>
+                                        <h6 class="text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="mb-2 d-block h-100">
+                                            <img src="images/phones.png" class="d-block m-auto" width="250px" alt="...">
+                                      </div>
+                                      <div class="carousel-caption d-md-block mt-3">
+                                        <h5>Third slide label</h5>
+                                        <h6 class="text-muted mt-4">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h6>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                    <span class="fa fa-chevron-left rounded-circle c-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                    <span class="fa fa-chevron-right rounded-circle c-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                              </div>
+                        </div>
+                </div>
+                <!--end of row-->
+        </div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header ml-3 mr-3 mt-3">
+              <h5 class="modal-title pl-4 pt-4 pb-0" id="exampleModalCenterTitle">Health, Beauty and personal care</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                
+                    <div class="ml-5 mr-5">
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Pharmacy (drugs only)
+                            </label>
+                          </div>
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Pharmacy (drugs and personal care)
+                            </label>
+                          </div>
+                          <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                                    Pharmacy (drugs groceries and personal cares)
+                            </label>
+                          </div>
+                          <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                                <label class="form-check-label" for="exampleRadios4">
+                                        Beauty Shop
+                                </label>
+                          </div>
+                          <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+                                <label class="form-check-label" for="exampleRadios5">
+                                        Hair salon, Barbering
+                                </label>
+                          </div>
+                    </div>
+                    <div class="m-5">
+                            <a href="" class="btn btn-custom-outline" data-dismiss="modal">Cancel</a>
+                            <a href="" class="btn btn-custom" data-toggle="modal" data-target="#exampleModalCenter">Next</a>
+                    </div>
+                </form>
+          </div>
+        </div>
+      </div>
+              
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

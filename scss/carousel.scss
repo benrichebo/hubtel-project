@@ -1,0 +1,24 @@
+.carousel{
+  .carousel-caption{
+    color: $black;
+    position: unset;
+    margin: 50px;
+  }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 157, 149, 0.3);
+    border-radius: 50%;
+    border: 1px solid $hub_color_deep;
+  }
+  
+  .carousel-control-next .c-icon, .carousel-control-prev .c-icon {
+    background: #01C7B1;
+    color: #fff;
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+  }
+}

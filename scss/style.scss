@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixings";
+@import "customfont";
+@import "buttons";
+@import "businesscategory";
+@import "carousel";
+@import "inputradio";
+    h1,h2,h3,h4{
+        line-height: 2.1rem;
+        font-weight: 600!important;
+    }
+
+  .form-control {
+    background: $form_input_b;
+    border: 1px solid $form_input_border;
+    border-radius: 0;
+    font-size: 0.9rem;
+    height: 40px;
+    padding: 1.4rem;
+  }
+  
+  .navbar.bg-light{
+        background-color: $white!important;
+        border-bottom: 1px solid rgba(240, 240, 240, 1);
+  }
+  .modal-header{
+    border-bottom: 0px;
+  }
+  
+ 
